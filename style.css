@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container {
+    position: relative;
+  }
+  
+  #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the canvas fill its parent container */
+    height: 100%; /* Make the canvas fill its parent container */
+    background-color: #333; /* Set a background color for the canvas */
+  }
+  #content-overlay {
+    position: absolute;
+    top: 20px; /* Adjust positioning as needed */
+    left: 25px; /* Adjust positioning as needed */
+    z-index: 100;
+    /* Other styles for the overlay */
+  }
+  h1 {
+    font-size: 70px; /* Set the font size as desired */
+    font-family: cursive;
+    color: rgb(28, 232, 55);
+
+  }
+  button{
+    background-color: aqua;
+  }
